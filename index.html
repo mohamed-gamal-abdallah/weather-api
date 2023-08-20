@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body >
+  <section class=" layer py-3">
+    <div class="w-100 d-flex ">
+      <div class=" w-100 p-2 rounded-5 color2 d-flex justify-content-between align-items-center"><input type="text" placeholder="Find your location" class="w-75 bg-transparent h-100 ms-2" id="search">
+        <button type="button" class="btn btn-primary rounded-5 px-5" id="find">Find</button></div></div>
+        <div class="row mt-5  w-100 m-auto gx-0 gy-2">
+<!-- ======================================================================================== -->
+
+          <div class="col-md-4 ">
+            <div class="color2 color5 d-flex justify-content-between align-items-center p-2 highday">
+              <h6 class="text-white" id="dayshow"></h6>
+              <h6 class="text-white" id="monthshow"></h6>
+            </div>
+            
+            <div class="color7 px-2 py-4 high">
+<div><h3 class="text-white"id="cityname"></h3></div>
+<div class="d-flex text-white justify-content-around align-items-center">
+  <h2 class="font-size-72px" id="temp"></h2>
+  <img  alt="" class="w-25" id="iconimg">
+</div>
+<div><h6 class="color1" id="condition"></h6></div>
+<div class="d-flex color5 justify-content-around align-items-center mt-3" ><h6 id="humidity"
+  ></h6> <h6 id="windspeed"></h6>
+<h6 id="winddir"></h6></div>
+            </div>
+          </div>
+<!-- ======================================================================================== -->
+
+
+
+<!-- ======================================================================================== -->
+
+          <div class="col-md-4 ">
+            <div class="color4 color5 d-flex justify-content-center align-items-center p-2 highday">
+              <h6 class="text-center text-white" id="nextdayshow"></h6>
+            </div>
+            <div class="color6 px-2 py-4 high">
+            <div class="d-flex flex-column text-white justify-content-around align-items-center">
+              <img alt="" class="w-25"id="nexticonimg">
+              <h3 id="nexttemp"></h3>
+              <div><h6 class="color1" id="nextcondition"></h6></div>
+              </div>
+            </div>
+          </div>
+
+<!-- ======================================================================================== -->
+
+
+
+<!-- ======================================================================================== -->
+
+<div class="col-md-4 ">
+  <div class="color2 color5 d-flex justify-content-center align-items-center p-2 highday">
+    <h6 class="text-center text-white" id="nnextdayshow"></h6>
+  </div>
+  <div class="color7 px-2 py-4 high">
+  <div class="d-flex flex-column text-white justify-content-around align-items-center">
+    <img  alt="" class="w-25"id="nnexticonimg">
+    <h3 id="nnexttemp"></h3>
+    <div><h6 class="color1" id="nnextcondition"></h6></div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================================================================================== -->
+          
+
+
+
+        </div>
+  </section>
+    <nav class="navbar navbar-expand-lg navbar-light color2">
+      <div class="container  d-flex justify-content-between">
+    <div class="logo d-flex  justify-content-between align-items-center w-25">
+      <img src="img/logo2x.png" alt="" class="">
+      <div class="w-100 mx-2">
+        <h5 class="text-white">Weather</h5>
+        <p class="text-white font-size-8px">tagline goes here</p>
+      </div>
+    </div>
+    <div class="container-fluid  w-75">
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link me-4 active text-white" aria-current="page" href="#">Home</a>
+          <a class="nav-link me-4 text-white" href="#">News</a>
+          <a class="nav-link me-4 text-white" href="#">Live cameras</a>
+          <a class="nav-link me-4 text-white">photos</a>
+          <a class="nav-link me-4 text-white">contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </nav>
+  <section>
+    <img src="img/banner.png" alt="" class="w-100 ">
+  </section>
+  <section class="color2 section-md height2">
+  </section>
+  <section class="color3 py-5">
+    <div class="container">
+    <div class="w-100 d-flex ">
+      <div class=" w-50 p-2 rounded-5 color2 d-flex justify-content-between align-items-center"><input type="text" placeholder="enter your email to subscribe ..." class="w-75 bg-transparent h-100 ms-2">
+        <button type="button" class="btn btn-primary rounded-5 px-3">subscribe</button></div>
+      <div class="icons d-flex w-50 justify-content-center">
+        <div class="icon icon1"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="icon icon2"><i class="fa-brands fa-twitter"></i></div>
+        <div class="icon icon3"><i class="fa-brands fa-google-plus-g"></i></div>
+        <div class="icon icon4"><i class="fa-brands fa-pinterest"></i></div>
+      </div>
+    </div>
+    <div>
+      <p class="copyright mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+  </div>
+  </section>
+
+  
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>  
